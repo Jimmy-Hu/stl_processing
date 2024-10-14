@@ -1,3 +1,6 @@
 [submodule "OpenSTL"]
 	path = OpenSTL
 	url = https://github.com/Innoptech/OpenSTL.git
+[submodule "stl_reader"]
+	path = stl_reader
+	url = https://github.com/sreiter/stl_reader.git

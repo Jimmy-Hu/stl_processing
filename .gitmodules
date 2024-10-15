@@ -4,3 +4,6 @@
 [submodule "stl_reader"]
 	path = stl_reader
 	url = https://github.com/sreiter/stl_reader.git
+[submodule "TinyDIP"]
+	path = TinyDIP
+	url = https://github.com/Jimmy-Hu/TinyDIP.git

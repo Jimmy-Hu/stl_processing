@@ -4,3 +4,4 @@
 #include <chrono>
 #include <iostream>
 #include "image.h"
+#include "image_io.h"

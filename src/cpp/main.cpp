@@ -6,3 +6,4 @@
 #include "image.h"
 #include "image_io.h"
 #include "basic_functions.h"
+#include "image_operations.h"

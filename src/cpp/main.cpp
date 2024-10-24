@@ -1,6 +1,7 @@
 // main.cpp : This file contains the 'main' function. Program execution begins and ends there.
 //
 
+//#define CGAL_USE_BASIC_VIEWER
 #include <chrono>
 #include <iostream>
 #include "image.h"

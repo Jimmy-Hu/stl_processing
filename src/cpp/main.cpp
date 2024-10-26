@@ -14,3 +14,4 @@
 #include "../../OpenSTL/modules/core/include/openstl/core/stl.h"
 
 std::vector<openstl::Triangle> stl_processor(std::vector<openstl::Triangle>& input)
+{

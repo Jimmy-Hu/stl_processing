@@ -15,4 +15,5 @@
 
 std::vector<openstl::Triangle> stl_processor(std::vector<openstl::Triangle>& input)
 {
+    std::vector<openstl::Triangle> output;
 }

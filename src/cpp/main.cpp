@@ -16,4 +16,5 @@
 std::vector<openstl::Triangle> stl_processor(std::vector<openstl::Triangle>& input)
 {
     std::vector<openstl::Triangle> output;
+    float maximum_z = input[0].v0.z;
 }

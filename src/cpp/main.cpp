@@ -22,5 +22,6 @@ std::vector<openstl::Triangle> stl_processor(std::vector<openstl::Triangle>& inp
 
 int main()
 {
+    auto start = std::chrono::system_clock::now();
     return EXIT_SUCCESS;
 }

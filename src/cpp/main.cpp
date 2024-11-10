@@ -28,5 +28,6 @@ int main()
     std::time_t end_time = std::chrono::system_clock::to_time_t(end);
     if (elapsed_seconds.count() != 1)
     {
+        std::cout << "Computation finished at " << std::ctime(&end_time) << "elapsed time: " << elapsed_seconds.count() << " seconds.\n";
     return EXIT_SUCCESS;
 }

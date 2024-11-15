@@ -33,5 +33,7 @@ int main()
     else
     {
         std::cout << "Computation finished at " << std::ctime(&end_time) << "elapsed time: " << elapsed_seconds.count() << " second.\n";
+    }
+    
     return EXIT_SUCCESS;
 }

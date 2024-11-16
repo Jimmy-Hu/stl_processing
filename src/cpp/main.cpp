@@ -18,6 +18,7 @@ std::vector<openstl::Triangle> stl_processor(std::vector<openstl::Triangle>& inp
     std::vector<openstl::Triangle> output;
     float maximum_z = input[0].v0.z;
     float maximum_location_x = input[0].v0.x, maximum_location_y = input[0].v0.y;
+    for (std::size_t index = 0; index < input.size(); ++index)
 }
 
 int main()

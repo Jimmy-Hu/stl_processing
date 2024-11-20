@@ -21,6 +21,7 @@ std::vector<openstl::Triangle> stl_processor(std::vector<openstl::Triangle>& inp
     for (std::size_t index = 0; index < input.size(); ++index)
     {
         if (maximum_z < input[index].v0.z)
+        {
     }
 }
 

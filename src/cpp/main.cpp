@@ -22,6 +22,7 @@ std::vector<openstl::Triangle> stl_processor(std::vector<openstl::Triangle>& inp
     {
         if (maximum_z < input[index].v0.z)
         {
+        }
     }
 }
 

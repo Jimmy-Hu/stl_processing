@@ -24,6 +24,7 @@ std::vector<openstl::Triangle> stl_processor(std::vector<openstl::Triangle>& inp
         {
             maximum_z = input[index].v0.z;
             maximum_location_x = input[index].v0.x;
+            maximum_location_y = input[index].v0.y;
         }
     }
 }

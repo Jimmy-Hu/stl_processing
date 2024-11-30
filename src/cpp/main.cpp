@@ -32,6 +32,7 @@ std::vector<openstl::Triangle> stl_processor(std::vector<openstl::Triangle>& inp
     std::cout << "maximum_location_y = " << maximum_location_y << "\n";
     output.resize(input.size());
     #pragma omp parallel for
+    for (std::size_t index = 0; index < input.size(); ++index)
 }
 
 int main()

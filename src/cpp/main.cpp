@@ -34,6 +34,7 @@ std::vector<openstl::Triangle> stl_processor(std::vector<openstl::Triangle>& inp
     #pragma omp parallel for
     for (std::size_t index = 0; index < input.size(); ++index)
     {
+        openstl::Triangle temp;
 }
 
 int main()

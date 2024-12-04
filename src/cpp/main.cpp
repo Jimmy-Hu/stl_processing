@@ -36,6 +36,7 @@ std::vector<openstl::Triangle> stl_processor(std::vector<openstl::Triangle>& inp
     {
         openstl::Triangle temp;
         temp = input[index];
+        temp.v0.z = temp.v0.z + maximum_z - (std::sqrt(std::pow(maximum_z * 10, 2) - std::pow(temp.v0.x - maximum_location_x, 2)));
 }
 
 int main()

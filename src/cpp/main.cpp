@@ -41,6 +41,7 @@ std::vector<openstl::Triangle> stl_processor(std::vector<openstl::Triangle>& inp
         temp.v2.z = temp.v2.z + maximum_z - (std::sqrt(std::pow(maximum_z * 10, 2) - std::pow(temp.v2.x - maximum_location_x, 2)));
         if (temp.v0.z > 5000 || temp.v1.z > 5000 || temp.v2.z > 5000)
         {
+            temp = input[index];
 }
 
 int main()

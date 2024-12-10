@@ -42,6 +42,7 @@ std::vector<openstl::Triangle> stl_processor(std::vector<openstl::Triangle>& inp
         if (temp.v0.z > 5000 || temp.v1.z > 5000 || temp.v2.z > 5000)
         {
             temp = input[index];
+        }
 }
 
 int main()

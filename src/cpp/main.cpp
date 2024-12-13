@@ -45,6 +45,7 @@ std::vector<openstl::Triangle> stl_processor(std::vector<openstl::Triangle>& inp
         }
         output[index] = temp;
     }
+    return output;
 }
 
 int main()

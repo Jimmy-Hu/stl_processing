@@ -50,6 +50,7 @@ std::vector<openstl::Triangle> stl_processor(std::vector<openstl::Triangle>& inp
 
 auto find_max_x(openstl::Triangle& input)
 {
+    float maximum = std::max(input.v0.x, input.v1.x);
 int main()
 {
     auto start = std::chrono::system_clock::now();

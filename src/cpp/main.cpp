@@ -57,6 +57,7 @@ auto find_max_x(openstl::Triangle& input)
 
 auto find_min_x(openstl::Triangle& input)
 {
+    float minimum = std::min(input.v0.x, input.v1.x);
 int main()
 {
     auto start = std::chrono::system_clock::now();

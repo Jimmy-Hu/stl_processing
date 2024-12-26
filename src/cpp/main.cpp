@@ -60,6 +60,7 @@ auto find_min_x(openstl::Triangle& input)
     float minimum = std::min(input.v0.x, input.v1.x);
     minimum = std::min(minimum, input.v2.x);
     return minimum;
+}
 int main()
 {
     auto start = std::chrono::system_clock::now();

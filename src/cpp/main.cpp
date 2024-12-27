@@ -61,6 +61,7 @@ auto find_min_x(openstl::Triangle& input)
     minimum = std::min(minimum, input.v2.x);
     return minimum;
 }
+
 int main()
 {
     auto start = std::chrono::system_clock::now();

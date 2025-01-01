@@ -66,6 +66,7 @@ auto find_max_y(openstl::Triangle& input)
 {
     float maximum = std::max(input.v0.y, input.v1.y);
     maximum = std::max(maximum, input.v2.y);
+    return maximum;
 int main()
 {
     auto start = std::chrono::system_clock::now();

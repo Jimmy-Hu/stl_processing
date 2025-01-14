@@ -79,6 +79,7 @@ auto find_min_y(openstl::Triangle& input)
 auto find_max_z(openstl::Triangle& input)
 {
     float maximum_z = std::max(input.v0.z, input.v1.z);
+    maximum_z = std::max(maximum_z, input.v2.z);
 int main()
 {
     auto start = std::chrono::system_clock::now();

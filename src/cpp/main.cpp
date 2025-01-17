@@ -82,6 +82,7 @@ auto find_max_z(openstl::Triangle& input)
     maximum_z = std::max(maximum_z, input.v2.z);
     return maximum_z;
 }
+
 int main()
 {
     auto start = std::chrono::system_clock::now();

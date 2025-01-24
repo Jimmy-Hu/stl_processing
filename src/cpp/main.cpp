@@ -89,6 +89,7 @@ auto find_min_z(openstl::Triangle& input)
     minimum_z = std::min(minimum_z, input.v2.z);
     return minimum_z;
 }
+
 int main()
 {
     auto start = std::chrono::system_clock::now();

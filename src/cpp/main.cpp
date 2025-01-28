@@ -93,6 +93,7 @@ auto find_min_z(openstl::Triangle& input)
 auto find_max(std::vector<openstl::Triangle>& input, std::size_t channel)
 {
     float maximum = 0;
+    switch (channel)
 int main()
 {
     auto start = std::chrono::system_clock::now();

@@ -108,6 +108,7 @@ auto find_max(std::vector<openstl::Triangle>& input, std::size_t channel)
         break;
     case 1:
         maximum = input[0].v0.y;
+        for (auto&& element : input)
 int main()
 {
     auto start = std::chrono::system_clock::now();

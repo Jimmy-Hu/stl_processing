@@ -121,6 +121,7 @@ auto find_max(std::vector<openstl::Triangle>& input, std::size_t channel)
         maximum = input[0].v0.z;
         for (auto&& element : input)
         {
+            if (maximum < find_max_z(element))
 int main()
 {
     auto start = std::chrono::system_clock::now();

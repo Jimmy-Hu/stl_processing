@@ -130,6 +130,7 @@ auto find_max(std::vector<openstl::Triangle>& input, std::size_t channel)
         break;
     default:
         break;
+    }
 int main()
 {
     auto start = std::chrono::system_clock::now();

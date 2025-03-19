@@ -143,6 +143,7 @@ auto find_min(std::vector<openstl::Triangle>& input, std::size_t channel)
         for (auto&& element : input)
         {
             if (minimum > find_min_x(element))
+            {
 int main()
 {
     auto start = std::chrono::system_clock::now();

@@ -160,6 +160,7 @@ auto find_min(std::vector<openstl::Triangle>& input, std::size_t channel)
         }
         return minimum;
         break;
+    case 2:
 int main()
 {
     auto start = std::chrono::system_clock::now();

@@ -178,6 +178,7 @@ auto find_min(std::vector<openstl::Triangle>& input, std::size_t channel)
 
 template<class ElementT = double>
 auto TriangleVector2Image(std::vector<openstl::Triangle>& input, const std::size_t width = 800, const std::size_t height = 600)
+{
 int main()
 {
     auto start = std::chrono::system_clock::now();

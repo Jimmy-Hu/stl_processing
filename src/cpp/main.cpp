@@ -180,6 +180,7 @@ template<class ElementT = double>
 auto TriangleVector2Image(std::vector<openstl::Triangle>& input, const std::size_t width = 800, const std::size_t height = 600)
 {
     TinyDIP::Image<ElementT> output(width, height);
+    auto max_x = find_max(input, 0);
 int main()
 {
     auto start = std::chrono::system_clock::now();

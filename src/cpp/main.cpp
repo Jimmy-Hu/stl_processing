@@ -182,6 +182,7 @@ auto TriangleVector2Image(std::vector<openstl::Triangle>& input, const std::size
     TinyDIP::Image<ElementT> output(width, height);
     auto max_x = find_max(input, 0);
     auto max_y = find_max(input, 1);
+    auto ratio_x = static_cast<double>(width) / max_x;
 int main()
 {
     auto start = std::chrono::system_clock::now();

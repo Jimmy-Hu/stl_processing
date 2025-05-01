@@ -186,6 +186,7 @@ auto TriangleVector2Image(std::vector<openstl::Triangle>& input, const std::size
     auto ratio_y = static_cast<double>(height) / max_y;
     for (auto&& element : input)
     {
+        output.set(std::make_tuple(static_cast<std::size_t>(element.v0.x * ratio_x), static_cast<std::size_t>(element.v0.y * ratio_y)), element.v0.z);
 int main()
 {
     auto start = std::chrono::system_clock::now();

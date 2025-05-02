@@ -187,6 +187,7 @@ auto TriangleVector2Image(std::vector<openstl::Triangle>& input, const std::size
     for (auto&& element : input)
     {
         output.set(std::make_tuple(static_cast<std::size_t>(element.v0.x * ratio_x), static_cast<std::size_t>(element.v0.y * ratio_y)), element.v0.z);
+        output.set(std::make_tuple(static_cast<std::size_t>(element.v1.x * ratio_x), static_cast<std::size_t>(element.v1.y * ratio_y)), element.v1.z);
 int main()
 {
     auto start = std::chrono::system_clock::now();

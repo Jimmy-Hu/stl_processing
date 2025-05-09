@@ -194,6 +194,8 @@ auto TriangleVector2Image(std::vector<openstl::Triangle>& input, const std::size
     return output;
 }
 
+void
+
 int main()
 {
     auto start = std::chrono::system_clock::now();

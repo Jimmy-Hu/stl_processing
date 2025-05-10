@@ -194,7 +194,7 @@ auto TriangleVector2Image(std::vector<openstl::Triangle>& input, const std::size
     return output;
 }
 
-void
+void printVec3(openstl::Vec3 input)
 
 int main()
 {

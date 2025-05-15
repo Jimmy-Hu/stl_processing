@@ -199,6 +199,7 @@ void printVec3(openstl::Vec3 input)
     std::cout << input.x << "\t" << input.y << "\t" << input.z << "\n";
 
 
+
     
 int main()
 {
